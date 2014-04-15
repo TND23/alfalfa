@@ -1,9 +1,8 @@
-alfalfa
-=======
+# Alfalfa
 
 > Version: 0.1.0
 
-Alfalfa is a small gem which may help organize gemfiles.
+*A small gem which may help organize gemfiles*
 In the future, additional features may be added.
 
 ## Installation
@@ -11,18 +10,21 @@ In the future, additional features may be added.
 You may install the gem, or add it to your gemfile with bundler.
 
 To download, simply execute
-  $ gem install alfalfa
+
+    $ gem install alfalfa
 
 You may add alfalfa to your gemfile, if you wish.
 
-'''ruby
+```ruby
 # Gemfile
 gem 'alfalfa'
-'''
+```
 and then
-  $ bundle
+
+    $ bundle
 
 ## Usage
 
 To alphabetize your Gemfile, while in the root of your application, run the following:
-  Alfalfa.sort_gemfile
+
+    $ Alfalfa.sort_gemfile
